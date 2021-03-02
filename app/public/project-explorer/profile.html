@@ -21,7 +21,9 @@
     </nav>
     <main>
         <section>
-            <h2>John Doe</h2>
+            <header>
+                <h2>John Doe</h2>
+            </header>
 
             <p>joh.doe@gmail.com</p>
             <ul>
@@ -32,32 +34,35 @@
         </section>
 
         <section>
-            <h2>Update Profile</h2>
+            <header>
+                <h2>Update Profile</h2>
+            </header>
+
             <form>
             <div>
                 <label for="firstName">First Name:</label>
-                <input type="text" name="firstName">
+                <input type="text" name="firstName"required>
             </div>
             <br />
             <div>
                 <label for="lastName">Last Name:</label>
-                <input type="text" name="lastName">
+                <input type="text" name="lastName" required>
             </div>
             <br />
             <div>
                 <label for="email">Email Address:</label>
-                <input type="email" name="email">
+                <input type="email" name="email"required >
             </div>
             <br />
             <div>
                 <label for="password">Password:</label>
-                <input type="password" name="password">
+                <input type="password" name="password" required>
             </div>
             
             <br />
             <div>
                 <label for="matricNumber">Matric Number:</label>
-                <input type="text" name="matricNumber">
+                <input type="text" name="matricNumber" required>
             </div>
             
             <br />
@@ -91,21 +96,23 @@
             </form>
         </section>
         <section>
-            <h2>Change Password</h2>
+            <header>
+                <h2>Change Password</h2>
+            </header>
             <form>
                 <div>
                     <label for="currentPassword">Current Password:</label>
-                    <input type="password" name="currentPassword">
+                    <input type="password" name="currentPassword" required>
                 </div>
                 <br />
                 <div>
                     <label for="newPassword">New Password:</label>
-                    <input type="password" name="newPassword">
+                    <input type="password" name="newPassword" required>
                 </div>
                 <br />
                 <div>
                     <label for="confirmPassword">Confirm Password:</label>
-                    <input type="password" name="confirmPassword">
+                    <input type="password" name="confirmPassword" required>
                 </div>
                 <br />
                 

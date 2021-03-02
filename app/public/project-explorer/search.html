@@ -21,16 +21,18 @@
     </nav>
     <main>
         <section>
-            <h3>Search Project By</h2>
+            <header>
+                <h3>Search Project By</h2>
+            </header>
             <form>
                 <div>
-                    <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags">
+                    <input required type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags">
                 </div>
                 
                 <br />
                 <div>
                     <label for="searchType">Search By:</label> <br>
-                    <select name="program" id="program">
+                    <select name="program" id="program" required>
                 
                         <option value="Name">Name</option>
                         <option value="Abstract">Abstract</option>
@@ -43,7 +45,9 @@
         </section>
 
         <section>
-            <h2>Search Result</h2>
+            <header>
+                <h2>Search Result</h2>
+            </header>
             <div>
                 <h3>Project 1</h3>
                 <ul>
